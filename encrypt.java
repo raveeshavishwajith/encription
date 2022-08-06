@@ -48,5 +48,12 @@ public class encrypt {
             }
             System.out.print("Your original text is : " + convertedChar);
         }
+
+        // Exit when input another number
+
+        else {
+            System.out.println("Your entered wrong number");
+            System.exit(0);
+        }
     }
 }
